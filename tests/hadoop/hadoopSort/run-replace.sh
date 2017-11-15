@@ -1,0 +1,3 @@
+hadoop dfs -rmr terasort_replace_output01
+
+time hadoop jar replaceOutput/ReplaceTestForHadoopTeraSort.jar terasort_input01 terasort_replace_output01
